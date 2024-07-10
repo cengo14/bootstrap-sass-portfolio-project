@@ -1,0 +1,16 @@
+@use '../../scss/custom';
+//*import companenets
+@use '../../scss/components/animations';
+@use '../../scss/components/buttons';
+@use '../../scss/components/mixins';
+@use '../../scss/components/typoraphy';
+//* import sections
+
+@use '../../scss/sections/navbar';
+@use '../../scss/sections/intro-section';
+@use '../../scss/sections/softwares';
+@use '../../scss/sections/services';
+@use '../../scss/sections/about-us';
+@use '../../scss/sections/portfolio';
+@use '../../scss/sections/contact';
+@use '../../scss/sections/footer';

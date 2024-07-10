@@ -1,0 +1,26 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "bootstrap ve sass projesi yapiyorum",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:style/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "css",
+    "html",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Cengiz Aydemir",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.6"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "bootstrap": "^5.3.3"
+  }
+}

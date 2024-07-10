@@ -1,0 +1,13 @@
+@use "../custom" as *;
+@use '../components/mixins' as *;
+
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    filter: grayscale(120);
+}
+.card-title{
+    font-family: "Rajdhani", sans-serif;
+}

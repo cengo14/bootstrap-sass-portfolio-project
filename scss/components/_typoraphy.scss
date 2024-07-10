@@ -1,0 +1,104 @@
+@use "../custom" as *;
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: "Comfortaa", sans-serif;
+  &--intro {
+    display: inline-block;
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: "Rajdhani", sans-serif;
+
+    @include media-breakpoint-down(sm) {
+      font-size: 3rem;
+      display: inline-block;
+    }
+  }
+  &--description {
+    font-size: 1rem;
+    display: block;
+    margin-top: 1.1rem;
+    text-transform: none;
+
+    @include media-breakpoint-up(lg) {
+      font-size: 1.4rem;
+      display: inline-block;
+    }
+  }
+}
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: $primary;
+}
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.3rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: $primary;
+}
+.display-6 {
+  font-family: "Rajdhani", sans-serif;
+}
+.display-3 {
+  font-family: "Rajdhani", sans-serif;
+  &--title {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: "Rajdhani", sans-serif;
+    display: inline-block;
+    background-image: linear-gradient(to right, $primary, $secondary);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @include media-breakpoint-up(lg) {
+      font-size: 1.8rem;
+    }
+  }
+  &--text{
+   font-family: "Comfortaa", sans-serif; 
+  }
+}
+.border-right {
+  border-right: 0.1rem solid $gray-300;
+  height: 100%;
+}
+
+.accordion-header{
+  font-family: "Rajdhani", sans-serif;
+}
+.accordion-body{
+  font-family: "Comfortaa", sans-serif; 
+}
+.gradient{
+  background: linear-gradient(
+    to right,
+    rgba($primary, 0.95),
+    rgba($secondary, 0.95)
+  );
+}
+.footer-title{
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $secondary;
+}
+.footer-list{
+  font-size: 1rem;
+  li{
+    list-style: none;
+    a{
+      text-decoration: none;
+      font-family: "Comfortaa", sans-serif;
+      color: $secondary;
+      font-size: 0.8rem;
+    }
+  }
+}
