@@ -1,4 +1,4 @@
-# Microsoft Web Sitesi Arayüzü Klonu
+# Pörtföy Website Web Sitesi Arayüzü Klonu
 
 Bu proje, Kişisel pörtföy websitesi arayüzü olarak oluşturulmuştur. Proje HTML, CSS, JavaScript, Bootstrap ve Sass kullanılarak geliştirilmiştir.
 
